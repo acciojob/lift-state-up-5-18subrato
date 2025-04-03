@@ -3,7 +3,7 @@ import React from 'react'
 const Child = ({ isLoggedIn, setIsLoggedIn }) => {
     return (
         <div>
-            {isLoggedIn ? 'You are logged in!' : <form>Username:<input
+            {isLoggedIn ? <p>You are logged in!</p> : <form>Username:<input
                 type='text'
             />
                 Password:<input
